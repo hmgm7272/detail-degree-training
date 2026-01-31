@@ -1,0 +1,52 @@
+.controls {
+  display: flex;
+  flex-direction:column;
+  gap: 12px;
+  width: 90%;
+  max-width: 360px;
+  margin: 3rem auto;
+}
+
+.controls button {
+  flex: 1;
+  padding: 14px 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  background: #fff;
+}
+
+.controls button:hover {
+  background: #eee;
+  border-color: #333;
+}
+.answer {
+  margin-top: 12px;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
+}
+
+#score {
+  display: flex;
+  justify-content: center;
+}
+
+#score svg {
+  transform: scale(1.4);
+  transform: translateX(38%);
+}
+
+#audio {
+  display: none !important;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
